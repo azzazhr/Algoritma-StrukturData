@@ -1,7 +1,6 @@
 package minggu02;
 
 public class BukuMain07 {
-
     public static void main(String[] args) {
 
         Buku07 bk1 = new Buku07();
