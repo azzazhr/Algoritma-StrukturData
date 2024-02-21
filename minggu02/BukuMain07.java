@@ -18,5 +18,10 @@ public class BukuMain07 {
         Buku07 bk2 = new Buku07("Self Reward", "Maheera Ayesha", 160, 29, 59000);
         bk2.terjual(11);
         bk2.tampilInformasi();
+
+        Buku07 Azza = new Buku07("Laskar Pelangi", "Andrea Hirata", 259, 30, 80000);
+        Azza.terjual(15);
+        Azza.tampilInformasi();
+
     }
 }
