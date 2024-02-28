@@ -13,5 +13,4 @@ public class Segitiga07 {
                     sgArray[i].alas + ", tinggi: " + sgArray[i].tinggi);
         }
     }
-
 }
