@@ -1,7 +1,6 @@
 package minggu03;
 
 public class ArrayObject07 {
-
     public static void main(String[] args) {
         PersegiPanjang[] ppArray = new PersegiPanjang[3];
 
