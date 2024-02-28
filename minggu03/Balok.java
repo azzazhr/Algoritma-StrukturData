@@ -14,5 +14,4 @@ public class Balok {
     public int hitungVolume() {
         return panjang * lebar * tinggi;
     }
-
 }
