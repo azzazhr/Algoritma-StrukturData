@@ -17,10 +17,10 @@ public class DataBuah07 {
         keranjangBuah[1][1].nama = "Pisang";
         keranjangBuah[1][1].warna = "Kuning";
 
-        System.out.println(keranjangBuah[0][0].nama + " memiliki warna " + keranjangBuah[0][0].warna);
-        System.out.println(keranjangBuah[0][1].nama + " memiliki warna " + keranjangBuah[0][1].warna);
-        System.out.println(keranjangBuah[1][0].nama + " memiliki warna " + keranjangBuah[1][0].warna);
-        System.out.println(keranjangBuah[1][1].nama + " memiliki warna " + keranjangBuah[1][1].warna);
+        System.out.println(keranjangBuah[0][0].nama + " berwarna " + keranjangBuah[0][0].warna);
+        System.out.println(keranjangBuah[0][1].nama + " berwarna " + keranjangBuah[0][1].warna);
+        System.out.println(keranjangBuah[1][0].nama + " berwarna " + keranjangBuah[1][0].warna);
+        System.out.println(keranjangBuah[1][1].nama + " berwarna " + keranjangBuah[1][1].warna);
 
     }
 }
