@@ -12,6 +12,5 @@ public class ArrayBalok07 {
         for (int i = 0; i < 3; i++) {
             System.out.println("Volume balok ke " + i + ": " + blArray[i].hitungVolume());
         }
-
     }
 }
