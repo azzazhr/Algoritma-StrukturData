@@ -25,5 +25,6 @@ public class MainSum07 {
         System.out.println("ALGORITMA DIVIDE CONQUER");
         System.out.println("Total Keuntungan Perusahaan Selama " + sm.elemen + " Bulan Adalah = "
                 + sm.totalDC(sm.keuntungan, 0, sm.elemen - 1));
+
     }
 }
