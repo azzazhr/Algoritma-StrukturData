@@ -28,5 +28,4 @@ public class Sum07 {
         }
         return 0;
     }
-
 }
