@@ -8,6 +8,10 @@ public class Pangkat07 {
         pangkat = p;
     }
 
+    public void menu() {
+
+    }
+
     public int pangkatBF(int a, int n) {
         int hasil = 1;
         for (int i = 0; i < n; i++) {
