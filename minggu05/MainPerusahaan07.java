@@ -6,7 +6,6 @@ public class MainPerusahaan07 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Membaca jumlah perusahaan
         System.out.println("================================================================");
         System.out.println("Program Menghitung Keuntungan Total Beberapa Perusahaan (Satuan Juta. Misal 5.9)");
         System.out.println("Masukkan Jumlah Perusahaan: ");
