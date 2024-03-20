@@ -23,5 +23,6 @@ public class Faktorial07 {
             int fakto = n * faktorialDC(n - 1);
             return fakto;
         }
+
     }
 }
