@@ -9,7 +9,7 @@ public class MainFaktorial07 {
         System.out.println("Masukkan Jumlah Elemen: ");
         int iJml = sc.nextInt();
 
-        Faktorial07[] fk = new Faktorial07[10];
+        Faktorial07[] fk = new Faktorial07[iJml];
         for (int i = 0; i < iJml; i++) {
             fk[i] = new Faktorial07();
             System.out.println("Masukkan nilai data ke-" + (i + 1) + ":");
@@ -21,6 +21,7 @@ public class MainFaktorial07 {
             System.out.println(
                     "Hasil Perhitungan Faktorial Menggunakan Brute Force Adalah " + fk[i].faktorialBF(fk[i].nilai));
         }
+
         System.out.println("HASIL - DIVIDE AND CONQUER");
         for (int i = 0; i < iJml; i++) {
             System.out.println(
