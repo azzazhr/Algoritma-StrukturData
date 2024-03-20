@@ -5,15 +5,10 @@ public class Faktorial07 {
 
     public int faktorialBF(int n) {
         int fakto = 1;
-        int i = 1;
-        do {
-            fakto *= i;
-            i++;
-        } while (i <= n);
+        for (int i = 1; i <= n; i++) {
+            fakto = fakto * i;
+        }
         return fakto;
-        // for (int i = 1; i <= n; i++) {
-        // fakto = fakto * 1;
-        // }
     }
 
     public int faktorialDC(int n) {
@@ -23,6 +18,5 @@ public class Faktorial07 {
             int fakto = n * faktorialDC(n - 1);
             return fakto;
         }
-
     }
 }
