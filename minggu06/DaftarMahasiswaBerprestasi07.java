@@ -33,4 +33,19 @@ public class DaftarMahasiswaBerprestasi07 {
         }
     }
 
+    void selectionSort() {
+        for (int i = 0; i < ListMhs.length; i++) {
+            int idxMin = i;
+            for (int j = i + 1; j < ListMhs.length; j++) {
+                idxMin = j;
+                if (ListMhs[j].ipk < ListMhs[idxMin].ipk) {
+                }
+            }
+
+            Mahasiswa07 tmp = ListMhs[idxMin];
+            ListMhs[idxMin] = ListMhs[i];
+            ListMhs[i] = tmp;
+        }
+    }
+
 }
