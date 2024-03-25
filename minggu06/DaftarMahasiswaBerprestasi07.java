@@ -34,17 +34,29 @@ public class DaftarMahasiswaBerprestasi07 {
     }
 
     void selectionSort() {
-        for (int i = 0; i < ListMhs.length; i++) {
+        for (int i = 0; i < ListMhs.length - 1; i++) {
             int idxMin = i;
             for (int j = i + 1; j < ListMhs.length; j++) {
-                idxMin = j;
                 if (ListMhs[j].ipk < ListMhs[idxMin].ipk) {
+                    idxMin = j;
                 }
             }
 
             Mahasiswa07 tmp = ListMhs[idxMin];
             ListMhs[idxMin] = ListMhs[i];
             ListMhs[i] = tmp;
+        }
+    }
+
+    void insertionSort() {
+        for (int i = 1; i < ListMhs.length; i++) {
+            Mahasiswa07 temp = ListMhs[i];
+            int j = i;
+            while (j > 0 && ListMhs[j - 1].ipk > temp.ipk) {
+                ListMhs[j] = ListMhs[j - 1];
+                j--;
+            }
+            ListMhs[j] = temp;
         }
     }
 }
