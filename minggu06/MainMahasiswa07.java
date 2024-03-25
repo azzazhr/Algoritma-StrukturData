@@ -26,5 +26,9 @@ public class MainMahasiswa07 {
         list.bubbleSort();
         list.tampil();
 
+        System.out.println("data mahasiswa setelah sorting asc berdasarkan ipk");
+        list.selectionSort();
+        list.tampil();
+
     }
 }
