@@ -45,9 +45,13 @@ public class BukuMain07 {
         int posisi = data.FindSeqSearch(cari);
         data.TampilPosisi(cari, posisi);
         data.TampilData(cari, posisi);
-
-        Buku07 dataBuku07 = data.FindBuku(cari);
-        dataBuku07.tampilDataBuku();
-
+        // Buku07 dataBuku07 = data.FindBuku(cari);
+        // dataBuku07.tampilDataBuku();
+        System.out.println("=========================================================");
+        System.out.println("Menggunakan Binary Search");
+        int posisi2 = data.FindSeqSearch(cari);
+        posisi = data.FindBinarySearch(cari, 0, JumlahBuku - 1);
+        data.TampilPosisi(cari, posisi);
+        data.TampilData(cari, posisi);
     }
 }
