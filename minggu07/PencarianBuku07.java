@@ -52,4 +52,12 @@ public class PencarianBuku07 {
         }
     }
 
+    public Buku07 FindBuku(int cari) {
+        for (int j = 0; j < listBk.length; j++) {
+            if (listBk[j].kodeBuku == cari) {
+                return listBk[j];
+            }
+        }
+        return null;
+    }
 }
