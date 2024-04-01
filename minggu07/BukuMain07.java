@@ -53,5 +53,6 @@ public class BukuMain07 {
         posisi = data.FindBinarySearch(cari, 0, JumlahBuku - 1);
         data.TampilPosisi(cari, posisi);
         data.TampilData(cari, posisi);
+
     }
 }
