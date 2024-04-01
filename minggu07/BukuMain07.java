@@ -45,5 +45,6 @@ public class BukuMain07 {
         int posisi = data.FindSeqSearch(cari);
         data.TampilPosisi(cari, posisi);
         data.TampilData(cari, posisi);
+
     }
 }
