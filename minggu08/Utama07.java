@@ -24,7 +24,7 @@ public class Utama07 {
                     sc.nextLine();
                     System.out.print("Masukkan Nama Barang: ");
                     String nama = sc.nextLine();
-                    System.out.println("Masukkan Nama Kategori: ");
+                    System.out.print("Masukkan Nama Kategori: ");
                     String kategori = sc.nextLine();
                     Barang07 barangBaru = new Barang07(kode, nama, kategori);
                     gudang.tambahBarang(barangBaru);
