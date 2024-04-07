@@ -10,6 +10,5 @@ public class MergeSortMain07 {
         mSort.mergeSort(data);
         System.out.println("Setelah diurutkan:");
         mSort.printArray(data);
-
     }
 }
