@@ -49,6 +49,14 @@ public class Gudang07 {
         }
     }
 
+    public boolean isEmpty() {
+        if (top == -1) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
     public Barang07 lihatBarangTeratas() {
         if (!isEmpty()) {
             Barang07 barangTeratas = tumpukan[top];
