@@ -109,5 +109,7 @@ public class Gudang07 {
             System.out.println("tumpukan barang kosong.");
             return null;
         }
+
     }
+
 }
