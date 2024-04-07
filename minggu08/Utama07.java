@@ -8,7 +8,7 @@ public class Utama07 {
         Scanner sc = new Scanner(System.in);
 
         while (true) {
-            System.out.println("\nMenu:");
+            System.out.println("\nMENU:");
             System.out.println("1. Tambah Barang");
             System.out.println("2. Ambil Barang");
             System.out.println("3. Tampilkan Tumpukan Barang");
