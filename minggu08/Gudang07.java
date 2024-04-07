@@ -83,18 +83,6 @@ public class Gudang07 {
         }
     }
 
-    public void tampilkanBarang() {
-        if (!cekKosong()) {
-            System.out.println("Rincian tumpukan barang di gudang:");
-            for (int i = top; i >= 0; i--) {
-                System.out.printf("Kode %d: %s (Kategori %s)\n", tumpukan[i].kode, tumpukan[i].nama,
-                        tumpukan[i].kategori);
-            }
-        } else {
-            System.out.println("Tumpukan barang kosong");
-        }
-    }
-
     public Barang07 lihatBarangTerbawah() {
         if (!isEmpty()) {
             Barang07 barangTerbawah = tumpukan[0];
@@ -125,4 +113,17 @@ public class Gudang07 {
             return null;
         }
     }
+
+    public void tampilkanBarang() {
+        if (!cekKosong()) {
+            System.out.println("Rincian tumpukan barang di gudang:");
+            for (int i = top; i >= 0; i--) {
+                System.out.printf("Kode %d: %s (Kategori %s)\n", tumpukan[i].kode, tumpukan[i].nama,
+                        tumpukan[i].kategori);
+            }
+        } else {
+            System.out.println("Tumpukan barang kosong");
+        }
+    }
+
 }
