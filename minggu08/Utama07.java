@@ -4,14 +4,14 @@ import java.util.Scanner;
 
 public class Utama07 {
     public static void main(String[] args) {
-        // Gudang07 gudang = new Gudang07(7);
+        Gudang07 gudang = new Gudang07(7);
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Masukkan kapasitas gudang : ");
-        int kapasitasGudang = sc.nextInt();
-        sc.nextLine();
+        // System.out.print("Masukkan kapasitas gudang : ");
+        // int kapasitasGudang = sc.nextInt();
+        // sc.nextLine();
 
-        Gudang07 gudang = new Gudang07(kapasitasGudang);
+        // Gudang07 gudang = new Gudang07(kapasitasGudang);
 
         while (true) {
             System.out.println("\nMENU:");
